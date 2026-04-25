@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lab 1 Exercises"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnExercise1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise 1: To-Do List"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnExercise2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise 2: Student Grade"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnExercise3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise 3: Shopping Cart" />
+
+</LinearLayout>
